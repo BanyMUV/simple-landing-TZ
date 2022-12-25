@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Furniture.test</title>
+    <link rel="shortcut icon" href="image/Logo.png">
+    
+</head>
+<body>
+    <header>
+        <div class="header-first-line">
+            <div class="first-line-left-block">
+                <span>Ми в соціальних мережах:</span>
+                <div class="social-block">
+                    <a href="#" class="dark-svg-social-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6736 24.0684L16.6732 24.0681L16.6737 24.0677L16.6737 24.0675L16.6738 24.0676L25.9473 15.6989C26.3543 15.3377 25.8584 15.1615 25.3181 15.4892L13.8726 22.71L8.92879 21.167C7.86114 20.8401 7.85347 20.1064 9.16849 19.579L28.4335 12.1505C29.3134 11.751 30.1626 12.3618 29.8267 13.7085L26.5459 29.169C26.3168 30.2676 25.653 30.5304 24.7332 30.0229L19.7355 26.3306L17.3334 28.6664C17.3258 28.6737 17.3182 28.6811 17.3107 28.6884C17.0421 28.95 16.8198 29.1664 16.3334 29.1664L16.6736 24.0684Z" fill="black"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="dark-svg-social-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0846 31.7596V20.8785H25.0883L25.4863 17.1288H22.0846L22.0897 15.2521C22.0897 14.2741 22.1826 13.7501 23.5873 13.7501H25.465V10H22.461C18.8526 10 17.5825 11.819 17.5825 14.878V17.1293H15.3333V20.8789H17.5825V31.7596H22.0846Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="dark-svg-social-icon"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.6027 9.39794C16.7405 9.34616 17.1041 9.3335 20.001 9.3335H19.9976C22.8955 9.3335 23.2577 9.34616 24.3955 9.39794C25.531 9.44994 26.3066 9.62972 26.9866 9.8935C27.6888 10.1657 28.2822 10.5302 28.8755 11.1235C29.4689 11.7164 29.8333 12.3115 30.1066 13.0131C30.3689 13.6913 30.5489 14.4664 30.6022 15.602C30.6533 16.7398 30.6666 17.1034 30.6666 20.0003C30.6666 22.8972 30.6533 23.2599 30.6022 24.3977C30.5489 25.5328 30.3689 26.3081 30.1066 26.9866C29.8333 27.6879 29.4689 28.283 28.8755 28.8759C28.2828 29.4693 27.6886 29.8346 26.9873 30.107C26.3086 30.3708 25.5326 30.5506 24.397 30.6026C23.2592 30.6544 22.8968 30.667 19.9996 30.667C17.1029 30.667 16.7396 30.6544 15.6018 30.6026C14.4665 30.5506 13.6911 30.3708 13.0125 30.107C12.3113 29.8346 11.7162 29.4693 11.1236 28.8759C10.5304 28.283 10.166 27.6879 9.89332 26.9863C9.62976 26.3081 9.44998 25.533 9.39776 24.3974C9.3462 23.2596 9.33331 22.8972 9.33331 20.0003C9.33331 17.1034 9.34665 16.7396 9.39754 15.6018C9.44865 14.4667 9.62865 13.6913 9.8931 13.0129C10.1664 12.3115 10.5309 11.7164 11.1242 11.1235C11.7171 10.5304 12.3122 10.1659 13.0138 9.8935C13.692 9.62972 14.4671 9.44994 15.6027 9.39794ZM19.6455 11.2557C19.4298 11.2556 19.2299 11.2555 19.0441 11.2558V11.2531C17.0561 11.2553 16.6748 11.2686 15.6908 11.3131C14.6507 11.3609 14.0861 11.5342 13.7101 11.6809C13.2123 11.8747 12.8567 12.1058 12.4834 12.4791C12.1101 12.8524 11.8785 13.208 11.6852 13.7058C11.5392 14.0818 11.3654 14.6462 11.3178 15.6862C11.2667 16.8107 11.2565 17.1467 11.2565 19.9952C11.2565 22.8437 11.2667 23.1814 11.3178 24.3059C11.3652 25.3459 11.5392 25.9104 11.6852 26.2859C11.8789 26.7839 12.1101 27.1386 12.4834 27.5119C12.8567 27.8853 13.2123 28.1164 13.7101 28.3097C14.0863 28.4557 14.6507 28.6295 15.6908 28.6775C16.8152 28.7286 17.1528 28.7397 20.001 28.7397C22.8491 28.7397 23.1868 28.7286 24.3113 28.6775C25.3513 28.6299 25.9162 28.4566 26.2918 28.3099C26.7898 28.1166 27.1442 27.8855 27.5175 27.5121C27.8909 27.139 28.1224 26.7846 28.3158 26.2868C28.4618 25.9112 28.6356 25.3468 28.6831 24.3068C28.7342 23.1823 28.7453 22.8445 28.7453 19.9979C28.7453 17.1512 28.7342 16.8134 28.6831 15.6889C28.6358 14.6489 28.4618 14.0845 28.3158 13.7089C28.122 13.2111 27.8909 12.8556 27.5175 12.4822C27.1444 12.1089 26.7895 11.8778 26.2918 11.6844C25.9158 11.5384 25.3513 11.3646 24.3113 11.3171C23.1866 11.266 22.8491 11.2558 20.001 11.2558L19.6455 11.2557ZM14.5232 20.0001C14.5232 16.975 16.9759 14.5223 20.001 14.5223H20.0008C23.0259 14.5223 25.478 16.975 25.478 20.0001C25.478 23.0253 23.0262 25.4769 20.001 25.4769C16.9759 25.4769 14.5232 23.0253 14.5232 20.0001ZM23.5566 20.0004C23.5566 18.0366 21.9645 16.4448 20.001 16.4448C18.0372 16.4448 16.4454 18.0366 16.4454 20.0004C16.4454 21.964 18.0372 23.556 20.001 23.556C21.9645 23.556 23.5566 21.964 23.5566 20.0004ZM24.4149 14.3065C24.4149 13.5996 24.9883 13.027 25.695 13.027V13.0265C26.4016 13.0265 26.975 13.5999 26.975 14.3065C26.975 15.0132 26.4016 15.5866 25.695 15.5866C24.9883 15.5866 24.4149 15.0132 24.4149 14.3065Z" fill="white"/>    
+                        </svg>
+                    </a>
+                </div>
+                <div class="phone-number">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 2H7C5.89543 2 5 2.89543 5 4V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V4C19 2.89543 18.1046 2 17 2Z" stroke="#44C697" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 18H12.01" stroke="#44C697" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <ul name="phone">
+                        <li value="1">(099) 111 22 33
+                            <ul>
+                                <li value="2">(099) 222 33 44</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="first-line-right-block">
+                <nav>
+                    <ul>
+                        <li><a class="uppercase-text" href="#">Головна</a></li>
+                        <li><a class="uppercase-text" href="#">Акції</a></li>
+                        <li><a class="uppercase-text" href="#">Доставка та оплата</a></li>
+                        <li><a class="uppercase-text" href="#about-us">про нас</a></li>
+                        <li><a class="uppercase-text" href="#contacts">контакти</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-second-line">
+            <div class="second-line-right-block">
+                <nav class="header-nav">
+                    <ul class="header-nav-main-list">
+                        <li>
+                            <a href="#" class="uppercase-text">Дивани</a>
+                            <ul class="header-nav-second-list">
+                                <li><a href="#">Доп пункт 1</a></li>
+                                <li><a href="#">Доп пункт 2</a></li>
+                                <li><a href="#">Доп пункт 3</a></li>
+                                <li><a href="#">Доп пункт 4</a></li>
+                                <li><a href="#">Доп пункт 5</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="uppercase-text">ліжка</a>
+                            <ul class="header-nav-second-list">
+                                <li><a href="#">Доп пункт 1</a></li>
+                                <li><a href="#">Доп пункт 2</a></li>
+                                <li><a href="#">Доп пункт 3</a></li>
+                                <li><a href="#">Доп пункт 4</a></li>
+                                <li><a href="#">Доп пункт 5</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="uppercase-text">Крісла</a>
+                            <ul class="header-nav-second-list">
+                                <li><a href="#">Доп пункт 1</a></li>
+                                <li><a href="#">Доп пункт 2</a></li>
+                                <li><a href="#">Доп пункт 3</a></li>
+                                <li><a href="#">Доп пункт 4</a></li>
+                                <li><a href="#">Доп пункт 5</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="uppercase-text">комоди</a>
+                            <ul class="header-nav-second-list">
+                                <li><a href="#">Доп пункт 1</a></li>
+                                <li><a href="#">Доп пункт 2</a></li>
+                                <li><a href="#">Доп пункт 3</a></li>
+                                <li><a href="#">Доп пункт 4</a></li>
+                                <li><a href="#">Доп пункт 5</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="uppercase-text">шафи</a>
+                            <ul class="header-nav-second-list">
+                                <li><a href="#">Доп пункт 1</a></li>
+                                <li><a href="#">Доп пункт 2</a></li>
+                                <li><a href="#">Доп пункт 3</a></li>
+                                <li><a href="#">Доп пункт 4</a></li>
+                                <li><a href="#">Доп пункт 5</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="uppercase-text">Кухня</a>
+                            <ul class="header-nav-second-list">
+                                <li><a href="#">Доп пункт 1</a></li>
+                                <li><a href="#">Доп пункт 2</a></li>
+                                <li><a href="#">Доп пункт 3</a></li>
+                                <li><a href="#">Доп пункт 4</a></li>
+                                <li><a href="#">Доп пункт 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="image/Logo.png" alt="logo">
+                <p class="logo-first-letter">furniture.test</p>
+            </div>
+            <div class="cart-block">
+                <img src="image/icons/shopping-cart.png" alt="cart">
+                <span class="uppercase-text">Кошик</span>
+                <button class="green-button">Замовити дзвінок</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="novelty">
+            <div class="novelty-slider">
+                <img src="image/main_img.png" alt="novelty image">
+            </div>
+            <div class="novelty-description">
+                <h1>Новинка!</h1>
+                <h3>Ліжко Ornella</h3>
+                <span class="description-regular-text">Це новий рівень комфортного сну</span>
+                <button class="button-more green-button">Детальніше</button>
+                <span class="this-slide">01<span class="next-slide">/ 04</span></span>
+                <div class="novelty-slider-arrows">
+                    <svg class="left-arrow slider-arrow-hover first-or-last-style-slider-arrow" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 30C23.7843 30 30.5 23.2843 30.5 15C30.5 6.71573 23.7843 0 15.5 0C7.21573 0 0.5 6.71573 0.5 15C0.5 23.2843 7.21573 30 15.5 30Z" fill="#1E2E36"/>
+                        <path class="slider-white-arrow" d="M19.383 14.8696C19.383 15.08 19.3064 15.2903 19.1534 15.4507L14.3386 20.4983C14.0324 20.8194 13.5358 20.8194 13.2296 20.4983C12.9235 20.1774 12.9235 19.6569 13.2296 19.3357L17.49 14.8696L13.2298 10.4034C12.9236 10.0823 12.9236 9.56188 13.2298 9.24094C13.5359 8.91969 14.0325 8.91969 14.3388 9.24094L19.1536 14.2884C19.3065 14.4489 19.383 14.6593 19.383 14.8696Z" fill="white"/>
+                    </svg>
+                    <svg class="right-arrow slider-arrow-hover" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 30C23.7843 30 30.5 23.2843 30.5 15C30.5 6.71573 23.7843 0 15.5 0C7.21573 0 0.5 6.71573 0.5 15C0.5 23.2843 7.21573 30 15.5 30Z" fill="#1E2E36"/>
+                        <path class="slider-white-arrow" d="M19.383 14.8696C19.383 15.08 19.3064 15.2903 19.1534 15.4507L14.3386 20.4983C14.0324 20.8194 13.5358 20.8194 13.2296 20.4983C12.9235 20.1774 12.9235 19.6569 13.2296 19.3357L17.49 14.8696L13.2298 10.4034C12.9236 10.0823 12.9236 9.56188 13.2298 9.24094C13.5359 8.91969 14.0325 8.91969 14.3388 9.24094L19.1536 14.2884C19.3065 14.4489 19.383 14.6593 19.383 14.8696Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section class="our-advantages">
+            <h2 class="second-title">Наші переваги</h2>
+            <div class="our-advantages-slider">
+                <div class="slider-block">
+                    <div class="slider-image">
+                        <img src="image/Our advantages/Our_advantages_1.png" alt="Our advantages photo 1">
+                    </div>
+                    <div class="slider-hidden-text">
+                        <h3>Меблі преміум класу</h3>
+                        <p>За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України</p>
+                    </div>
+                </div>
+                <div class="slider-block">
+                    <div class="slider-image">
+                        <img src="image/Our advantages/Our_advantages_2.png" alt="Our advantages photo 2">
+                    </div>
+                    <div class="slider-hidden-text">
+                        <h3>Меблі преміум класу</h3>
+                        <p>За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України</p>
+                    </div>
+                </div>
+                <div class="slider-block">
+                    <div class="slider-image">
+                        <img src="image/Our advantages/Our_advantages_3.png" alt="Our advantages photo 3">
+                    </div>
+                    <div class="slider-hidden-text">
+                        <h3>Меблі преміум класу</h3>
+                        <p>За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України</p>
+                    </div>
+                </div>
+                <svg class="slider-arrow-hover left-arrow left-arrow-advantages-slider" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="first-path" fill-rule="evenodd" clip-rule="evenodd" d="M15.5 30C23.7843 30 30.5 23.2843 30.5 15C30.5 6.71573 23.7843 0 15.5 0C7.21573 0 0.5 6.71573 0.5 15C0.5 23.2843 7.21573 30 15.5 30Z" fill="#1E2E36"/>
+                    <path class="second-path" d="M19.383 14.8696C19.383 15.08 19.3064 15.2903 19.1534 15.4507L14.3386 20.4983C14.0324 20.8194 13.5358 20.8194 13.2296 20.4983C12.9235 20.1774 12.9235 19.6569 13.2296 19.3357L17.49 14.8696L13.2298 10.4034C12.9236 10.0823 12.9236 9.56188 13.2298 9.24094C13.5359 8.91969 14.0325 8.91969 14.3388 9.24094L19.1536 14.2884C19.3065 14.4489 19.383 14.6593 19.383 14.8696Z" fill="white"/>
+                </svg>
+                <svg class="slider-arrow-hover right-arrow-advantages-slider" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="first-path" fill-rule="evenodd" clip-rule="evenodd" d="M15.5 30C23.7843 30 30.5 23.2843 30.5 15C30.5 6.71573 23.7843 0 15.5 0C7.21573 0 0.5 6.71573 0.5 15C0.5 23.2843 7.21573 30 15.5 30Z" fill="#1E2E36"/>
+                    <path class="second-path" d="M19.383 14.8696C19.383 15.08 19.3064 15.2903 19.1534 15.4507L14.3386 20.4983C14.0324 20.8194 13.5358 20.8194 13.2296 20.4983C12.9235 20.1774 12.9235 19.6569 13.2296 19.3357L17.49 14.8696L13.2298 10.4034C12.9236 10.0823 12.9236 9.56188 13.2298 9.24094C13.5359 8.91969 14.0325 8.91969 14.3388 9.24094L19.1536 14.2884C19.3065 14.4489 19.383 14.6593 19.383 14.8696Z" fill="white"/>
+                </svg>
+            </div>
+        </section>
+        <section class="product-categories">
+            <h2 class="second-title">Категорії товарів</h2>
+            <div class="product-categories-icon">
+                <!-- Можна зробити через <svg></svg>, але це не найкращий варіант, тому зробив просто через <img> -->
+                <div class="product-categories-block">
+                    <a href="#">
+                        <img src="image/category-icons/living-room 1.svg" alt="">
+                        <h4>Дивани</h4>
+                    </a>
+                </div>
+                <div class="product-categories-block">
+                    <a href="#" class="product-categories-selected">
+                        <img src="image/category-icons/bedroom 1.svg" alt="">
+                        <h4>Ліжка</h4>
+                    </a>
+                </div>
+                <div class="product-categories-block">
+                    <a href="#">
+                        <img src="image/category-icons/armchair 1.svg" alt="">
+                        <h4>Крісла</h4>
+                    </a>
+                </div>
+                <div class="product-categories-block">
+                    <a href="#">
+                        <img src="image/category-icons/wardrobe (1) 1.svg" alt="">
+                        <h4>комоди</h4>
+                    </a>
+                </div>
+                <div class="product-categories-block">
+                    <a href="#">
+                        <img src="image/category-icons/wardrobe 1.svg" alt="">
+                        <h4>Шафи</h4>
+                    </a>
+                </div>
+                <div class="product-categories-block">
+                    <a href="#">
+                        <img src="image/category-icons/kitchen 1.svg" alt="">
+                        <h4>Кухня</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="product-categories-gallery">
+                <div class="gallery-block sticky novelty-text">
+                    <img src="image/beds/bed_1.png" alt="bed #1">
+                    <div class="gallery-description">
+                        <h4>Ліжко Рамона</h4>
+                        <div class="gallery-description-text">
+                            <h4>8 999 грн</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-block sticky hot-sale-text action-text-stiky">
+                    <img src="image/beds/bed_2.png" alt="bed #2">
+                    <div class="gallery-description">
+                        <h4>Ліжко Честер</h4>
+                        <div class="gallery-description-text">
+                            <h4 class="action-text">8 999 грн</h4>
+                            <span>8 999 грн</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-block">
+                    <img src="image/beds/bed_3.png" alt="bed #3">
+                    <div class="gallery-description">
+                        <h4>Ліжко Венеція люкс</h4>
+                        <div class="gallery-description-text">
+                            <h4>8 999 грн</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-block sticky novelty-text">
+                    <img src="image/beds/bed_4.png" alt="bed #4">
+                    <div class="gallery-description">
+                        <h4>Ліжко Імперія</h4>
+                        <div class="gallery-description-text">
+                            <h4>8 999 грн</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-block">
+                    <img src="image/beds/bed_5.png" alt="bed #5">
+                    <div class="gallery-description">
+                        <h4>Ліжко Адель</h4>
+                        <div class="gallery-description-text">
+                            <h4>8 999 грн</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-block sticky hot-sale-text action-text-stiky">
+                    <img src="image/beds/bed_6.png" alt="bed #6">
+                    <div class="gallery-description">
+                        <h4>Ліжко Атлант</h4>
+                        <div class="gallery-description-text">
+                            <h4 class="action-text">8 999 грн</h4>
+                            <span>8 999 грн</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="green-button">В каталог</button>
+        </section>
+        <section class="about-us">
+            <h2 id="about-us" class="second-title">Про нас</h2>
+            <div class="about-us-content">
+                <div class="about-us-image">
+                    <img src="image/About_us.png" alt="About us image">
+                </div>
+                <div class="about-us-description">
+                    <p><span class="first-word">"Furniture"</span> – "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+                </div>
+            </div>
+        </section>
+        <section class="questions">
+            <h2 class="second-title">Залишились питання?</h2>
+            <div class="questions-content">
+                <div class="questions-image">
+                    <img src="image/Do_you_have_any_questions_img.png" alt="questions image">
+                </div>
+                <div class="questions-form">
+                    <h3>Замовте консультацію</h3>
+                    <form action="#">
+                        <input type="name" placeholder="Ім'я" value="Віталій">
+                        <input type="tel" placeholder="Номер телефону">
+                        <button class="green-button">ВІдправити</button>
+                    </form>
+                    <p>Залиште заявку або телефонуйте за номером <span class="bold-phone-number">(099) 111 22 33</span>, і наш менеджер звяжеться з вами для кваліфікованої консультації.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-left-block">
+            <div class="up-arrow"><a href="#"></a></div>
+            <div class="footer-logo">
+                <img src="image/Logo-footer.png" alt="logo footer">
+                <p class="logo-first-letter">furniture.test</p>
+            </div>
+            <div class="footer-info">
+                <nav>
+                    <ul>
+                        <li><a href="#">Дивани</a></li>
+                        <li><a href="#">ліжка</a></li>
+                        <li><a href="#">Крісла</a></li>
+                        <li><a href="#">шафи</a></li>
+                        <li><a href="#">Кухні</a></li>
+                        <li><a href="#">комоди</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">АкцІї</a></li>
+                        <li><a href="#">Доставка та оплата</a></li>
+                        <li><a href="#about-us">про нас</a></li>
+                        <li><a href="#contacts">контакти</a></li>
+                    </ul>
+                </nav>
+                <div id="contacts" class="footer-info-and-social">
+                    <div class="footer-more-info">
+                        <p class="test-info">TEST</p>
+                        <p class="work-info">Пн-Пт, з 10 до 18</p>
+                        <p class="phone-info">(099) 111 22 33</p>
+                        <p class="phone-info">(099) 222 33 44</p>
+                    </div>
+                    <div class="footer-social">
+                        <p>Ми в соціальних мережах:</p>
+                        <div class="footer-social_icon">
+                            <a href="#">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class= "telegram-white-svg" fill-rule="evenodd" clip-rule="evenodd" d="M16.6736 24.0684L16.6732 24.0681L16.6737 24.0677L16.6737 24.0675L16.6738 24.0676L25.9473 15.6989C26.3543 15.3377 25.8584 15.1615 25.3181 15.4892L13.8726 22.71L8.92879 21.167C7.86114 20.8401 7.85347 20.1064 9.16849 19.579L28.4335 12.1505C29.3134 11.751 30.1626 12.3618 29.8267 13.7085L26.5459 29.169C26.3168 30.2676 25.653 30.5304 24.7332 30.0229L19.7355 26.3306L17.3334 28.6664C17.3258 28.6737 17.3182 28.6811 17.3107 28.6884C17.0421 28.95 16.8198 29.1664 16.3334 29.1664L16.6736 24.0684Z" fill="black"/>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0846 31.7596V20.8785H25.0883L25.4863 17.1288H22.0846L22.0897 15.2521C22.0897 14.2741 22.1826 13.7501 23.5873 13.7501H25.465V10H22.461C18.8526 10 17.5825 11.819 17.5825 14.878V17.1293H15.3333V20.8789H17.5825V31.7596H22.0846Z" fill="white"/>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6027 9.39794C16.7405 9.34616 17.1041 9.3335 20.001 9.3335H19.9976C22.8955 9.3335 23.2577 9.34616 24.3955 9.39794C25.531 9.44994 26.3066 9.62972 26.9866 9.8935C27.6888 10.1657 28.2822 10.5302 28.8755 11.1235C29.4689 11.7164 29.8333 12.3115 30.1066 13.0131C30.3689 13.6913 30.5489 14.4664 30.6022 15.602C30.6533 16.7398 30.6666 17.1034 30.6666 20.0003C30.6666 22.8972 30.6533 23.2599 30.6022 24.3977C30.5489 25.5328 30.3689 26.3081 30.1066 26.9866C29.8333 27.6879 29.4689 28.283 28.8755 28.8759C28.2828 29.4693 27.6886 29.8346 26.9873 30.107C26.3086 30.3708 25.5326 30.5506 24.397 30.6026C23.2592 30.6544 22.8968 30.667 19.9996 30.667C17.1029 30.667 16.7396 30.6544 15.6018 30.6026C14.4665 30.5506 13.6911 30.3708 13.0125 30.107C12.3113 29.8346 11.7162 29.4693 11.1236 28.8759C10.5304 28.283 10.166 27.6879 9.89332 26.9863C9.62976 26.3081 9.44998 25.533 9.39776 24.3974C9.3462 23.2596 9.33331 22.8972 9.33331 20.0003C9.33331 17.1034 9.34665 16.7396 9.39754 15.6018C9.44865 14.4667 9.62865 13.6913 9.8931 13.0129C10.1664 12.3115 10.5309 11.7164 11.1242 11.1235C11.7171 10.5304 12.3122 10.1659 13.0138 9.8935C13.692 9.62972 14.4671 9.44994 15.6027 9.39794ZM19.6455 11.2557C19.4298 11.2556 19.2299 11.2555 19.0441 11.2558V11.2531C17.0561 11.2553 16.6748 11.2686 15.6908 11.3131C14.6507 11.3609 14.0861 11.5342 13.7101 11.6809C13.2123 11.8747 12.8567 12.1058 12.4834 12.4791C12.1101 12.8524 11.8785 13.208 11.6852 13.7058C11.5392 14.0818 11.3654 14.6462 11.3178 15.6862C11.2667 16.8107 11.2565 17.1467 11.2565 19.9952C11.2565 22.8437 11.2667 23.1814 11.3178 24.3059C11.3652 25.3459 11.5392 25.9104 11.6852 26.2859C11.8789 26.7839 12.1101 27.1386 12.4834 27.5119C12.8567 27.8853 13.2123 28.1164 13.7101 28.3097C14.0863 28.4557 14.6507 28.6295 15.6908 28.6775C16.8152 28.7286 17.1528 28.7397 20.001 28.7397C22.8491 28.7397 23.1868 28.7286 24.3113 28.6775C25.3513 28.6299 25.9162 28.4566 26.2918 28.3099C26.7898 28.1166 27.1442 27.8855 27.5175 27.5121C27.8909 27.139 28.1224 26.7846 28.3158 26.2868C28.4618 25.9112 28.6356 25.3468 28.6831 24.3068C28.7342 23.1823 28.7453 22.8445 28.7453 19.9979C28.7453 17.1512 28.7342 16.8134 28.6831 15.6889C28.6358 14.6489 28.4618 14.0845 28.3158 13.7089C28.122 13.2111 27.8909 12.8556 27.5175 12.4822C27.1444 12.1089 26.7895 11.8778 26.2918 11.6844C25.9158 11.5384 25.3513 11.3646 24.3113 11.3171C23.1866 11.266 22.8491 11.2558 20.001 11.2558L19.6455 11.2557ZM14.5232 20.0001C14.5232 16.975 16.9759 14.5223 20.001 14.5223H20.0008C23.0259 14.5223 25.478 16.975 25.478 20.0001C25.478 23.0253 23.0262 25.4769 20.001 25.4769C16.9759 25.4769 14.5232 23.0253 14.5232 20.0001ZM23.5566 20.0004C23.5566 18.0366 21.9645 16.4448 20.001 16.4448C18.0372 16.4448 16.4454 18.0366 16.4454 20.0004C16.4454 21.964 18.0372 23.556 20.001 23.556C21.9645 23.556 23.5566 21.964 23.5566 20.0004ZM24.4149 14.3065C24.4149 13.5996 24.9883 13.027 25.695 13.027V13.0265C26.4016 13.0265 26.975 13.5999 26.975 14.3065C26.975 15.0132 26.4016 15.5866 25.695 15.5866C24.9883 15.5866 24.4149 15.0132 24.4149 14.3065Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© ТОВ Furniture, працюємо з 2006 року</p>
+                <p class="glyanets-logo-icon">Глянець — розробка інтернет-магазинів</p>
+            </div>
+        </div>
+        <div class="footer-right-block">
+            <img src="image/footer-img.png" alt="footer img">
+        </div>
+    </footer>
+</body>
+</html>
